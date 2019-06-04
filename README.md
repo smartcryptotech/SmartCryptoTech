@@ -1,14 +1,17 @@
 # SmartCryptoTech
-http://smart-crypto-tech.co.uk
+## Website: http://smart-crypto-tech.co.uk
+## Discord: https://discord.gg/AyXyvXd
+## Twitter: https://twitter.com/SmartCryptoTech
+## Facebook: https://www.facebook.com/groups/2429636243737273/
 
 
 
-
+# Conf file details
 Run the wallet once then close it and go to `%APPDATA%\roaming\SmartCryptoTech`
 
-Open a text editor like (`notepad++`)
-Create a file called `smartcryptotech.conf`
-Paste this in to the conf file 
+Open a text editor like (`notepad++`),
+Create a file called `smartcryptotech.conf`,
+Paste this in to the conf file,
 
 rpcuser=rpc_smartcryptotech
 rpcpassword=ANYPASSWORDYOUWANT

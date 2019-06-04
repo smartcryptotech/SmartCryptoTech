@@ -13,6 +13,7 @@ Open a text editor like (`notepad++`),
 Create a file called `smartcryptotech.conf`,
 Paste this in to the conf file,
 
+```
 rpcuser=rpc_smartcryptotech
 rpcpassword=ANYPASSWORDYOUWANT
 rpcallowip=127.0.0.1
@@ -21,3 +22,4 @@ listen=1
 server=1
 addnode=206.253.167.12
 addnode=109.180.143.103
+```

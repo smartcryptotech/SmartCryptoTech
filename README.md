@@ -1,12 +1,12 @@
 # SmartCryptoTech
-## **Website:** http://smart-crypto-tech.co.uk
-## **Discord:** https://discord.gg/AyXyvXd
-## **Twitter:** https://twitter.com/SmartCryptoTech
-## **Facebook:** https://www.facebook.com/groups/2429636243737273/
+## __**Website:**__ http://smart-crypto-tech.co.uk
+## __**Discord:**__ https://discord.gg/AyXyvXd
+## __**Twitter:**__ https://twitter.com/SmartCryptoTech
+## __**Facebook:**__ https://www.facebook.com/groups/2429636243737273/
 
 
 
-**Conf file details**
+__Conf file details__
 Run the wallet once then close it and go to `%APPDATA%\roaming\SmartCryptoTech`
 
 Open a text editor like (`notepad++`),

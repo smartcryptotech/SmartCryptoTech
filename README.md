@@ -1,8 +1,8 @@
 # SmartCryptoTech
-**Website:** http://smart-crypto-tech.co.uk
-**Discord:** https://discord.gg/AyXyvXd
-**Twitter:** https://twitter.com/SmartCryptoTech
-**Facebook:** https://www.facebook.com/groups/2429636243737273/
+## **Website:** http://smart-crypto-tech.co.uk
+## **Discord:** https://discord.gg/AyXyvXd
+## **Twitter:** https://twitter.com/SmartCryptoTech
+## **Facebook:** https://www.facebook.com/groups/2429636243737273/
 
 
 

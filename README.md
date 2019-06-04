@@ -7,8 +7,7 @@
 
 
 __Conf file details__
-Run the wallet once then close it and go to `%APPDATA%\roaming\SmartCryptoTech`
-
+Run the wallet once then close it and go to `%APPDATA%\roaming\SmartCryptoTech`  (On windows) `.smartcryptotech` (linux)
 Open a text editor like (`notepad++`),
 Create a file called `smartcryptotech.conf`,
 Paste this in to the conf file,

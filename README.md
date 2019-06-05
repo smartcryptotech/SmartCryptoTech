@@ -10,7 +10,7 @@
 [Facebook](https://www.facebook.com/groups/2429636243737273),
 [Explorer](http://104.238.174.44:3001/)
 
-## Dependencies (Ubuntu 10.04)
+## Dependencies (Ubuntu 18.04)
 ```
 sudo apt-get install build-essential libtool automake autoconf -qq -y
 sudo apt-get install autotools-dev autoconf pkg-config libssl-dev -qq -y

@@ -8,7 +8,7 @@
 [Discord](https://discord.gg/AyXyvXd),
 [Twitter](https://twitter.com/SmartCryptoTech),
 [Facebook](https://www.facebook.com/groups/2429636243737273),
-[Explorer](http://104.238.174.44:3001/)
+[Explorer](http://104.238.174.44:3001/),
 [Paper Wallet](https://twittertipbots.xyz/Paper-Wallets/Coins/index.html?currency=SmartCryptoTech)
 
 ## Dependencies (Ubuntu 18.04)

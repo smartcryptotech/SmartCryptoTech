@@ -50,7 +50,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %s | mail -s "SmartCryptoTech Alert" admin@foo.com
 ```
-
+__**Just press `CTRL C` to terminate the process**__
 
 # __Conf file details__
 Run the wallet once then close it and go to `%APPDATA%\roaming\SmartCryptoTech`  (On windows) `.smartcryptotech` (linux).

@@ -8,11 +8,18 @@
 [Discord](https://discord.gg/AyXyvXd),
 [Twitter](https://twitter.com/SmartCryptoTech),
 [Facebook](https://www.facebook.com/groups/2429636243737273),
-[Explorer](http://95.179.198.196:3001)
+[Explorer](http://104.238.174.44:3001/)
 
-
-
-
+## Dependencies (Ubuntu 10.04)
+```
+sudo apt-get install build-essential libtool automake autoconf -qq -y
+sudo apt-get install autotools-dev autoconf pkg-config libssl-dev -qq -y
+sudo apt-get install libgmp3-dev libevent-dev bsdmainutils libboost-all-dev -qq -y
+sudo apt-get install -y software-properties-common
+sudo apt-get update -qq -y
+sudo apt-get install libminiupnpc-dev -qq -y
+sudo apt-get install libdb5.3++-dev
+```
 
 # __Conf file details__
 Run the wallet once then close it and go to `%APPDATA%\roaming\SmartCryptoTech`  (On windows) `.smartcryptotech` (linux).

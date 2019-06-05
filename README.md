@@ -34,6 +34,6 @@ rpcallowip=127.0.0.1
 rpcport=9251
 listen=1
 server=1
-addnode=206.253.167.12
+addnode=104.238.174.44
 addnode=109.180.143.103
 ```

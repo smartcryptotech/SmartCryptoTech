@@ -1,5 +1,5 @@
 # SmartCryptoTech
-![Logo](https://imgur.com/8tS9gkr)
+![Logo](https://github.com/smartcryptotech/SmartCryptoTech/blob/master/logo.png)
 
 
 

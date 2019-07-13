@@ -32,7 +32,7 @@ sudo apt-get install libdb5.3++-dev
 mkdir smartcryptotech
 cd smartcryptotech
 wget https://github.com/smartcryptotech/SmartCryptoTech/blob/master/Wallets/smartcryptotech-daemon-linux.tar.gz
-tar -xzvf smartcryptotech-daemon-linux-U18.tar.gz
+tar -xzvf smartcryptotech-daemon-linux.tar.gz
 chmod +x smartcryptotechd
 ./smartcryptotechd -daemon
 ```

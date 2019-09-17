@@ -3,16 +3,30 @@
 
 
 
-### Links
-[Website](http://smart-crypto-tech.co.uk),
-[Explorer](https://blockexplorer.smart-crypto-tech.co.uk),
-[Discord](https://discord.gg/CEaG3Gk),
-[Twitter](https://twitter.com/SmartCryptoTech),
-[Facebook](https://www.facebook.com/groups/2429636243737273),
-[LinkedIn](https://www.linkedin.com/in/smart-crypto-tech-207700185),
-[Telegram](https://t.me/joinchat/MeSZUhBRNJ0TRsSI11O3Kw),
-[CoinGecko](https://www.coingecko.com/en/coins/smartcryptotech),
-[Paper Wallet](https://twittertipbots.xyz/Paper-Wallets/Coins/index.html?currency=SmartCryptoTech)
+### Official Links
+[➤ Website](http://smart-crypto-tech.co.uk),
+[➤ Explorer](https://blockexplorer.smart-crypto-tech.co.uk),
+[➤ Discord](https://discord.gg/CEaG3Gk),
+[➤ Paper Wallet](https://twittertipbots.xyz/Paper-Wallets/Coins/index.html?currency=SmartCryptoTech)
+### Social Links
+[➤ Twitter](https://twitter.com/SmartCryptoTech),
+[➤ Facebook](https://www.facebook.com/groups/2429636243737273),
+[➤ LinkedIn](https://www.linkedin.com/in/smart-crypto-tech-207700185),
+[➤ Telegram](https://t.me/joinchat/MeSZUhBRNJ0TRsSI11O3Kw),
+[➤ Instagram](https://www.instagram.com/invites/contact/?i=xdumarnk8w90&utm_content=8epj6ah)
+### Statistics
+[➤ Coinpaprika](https://coinpaprika.com/coin/sct-smartcryptotech/),
+[➤ CoinGecko](https://www.coingecko.com/en/coins/smartcryptotech),
+[➤ Coincost](http://coincost.net/en/currency/smartcryptotech),
+[➤ Coingolive](https://coingolive.com/en/coins/smartcryptotech/)
+### Exchanges 
+[➤ AltMarkets](https://altmarkets.io/trading/sctbtc),
+[➤ Fiberchange](https://fiberchange.com/market/FBC-SCT),
+[➤ Northern Exchange](https://nortexchange.com/exchange/?market=SCT_BTC)
+### Promo Videos
+[➤ Youtube1](https://www.youtube.com/watch?v=U2yQrCbrAss),
+[➤ Youtube2](https://youtube.com/watch?v=Nzq-1zdKq2U),
+[➤ Youtube3](https://youtube.com/watch?v=ZtbCkikGWHU)
 
 
 

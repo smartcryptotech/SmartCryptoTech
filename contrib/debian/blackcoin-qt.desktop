@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SmartCryptoTech
+Comment=SmartCryptoTech P2P Cryptocurrency
+Comment[fr]=SmartCryptoTech, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SmartCryptoTech, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/smartcryptotech-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/smartcryptotech;
+Categories=Office;

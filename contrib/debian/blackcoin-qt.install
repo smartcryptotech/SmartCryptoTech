@@ -1,0 +1,5 @@
+smartcryptotech-qt usr/bin
+share/pixmaps/bitcoin32.xpm usr/share/pixmaps
+share/pixmaps/bitcoin80.xpm usr/share/pixmaps
+debian/smartcryptotech-qt.desktop usr/share/applications
+debian/smartcryptotech-qt.protocol usr/share/kde4/services/

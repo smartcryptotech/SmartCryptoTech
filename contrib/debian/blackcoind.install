@@ -1,0 +1,2 @@
+debian/bin/smartcryptotechd usr/bin
+src/smartcryptotechd usr/lib/smartcryptotech

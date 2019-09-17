@@ -1,0 +1,9 @@
+Building SmartCryptoTech
+
+See doc/readme-qt.rst for instructions on building SmartCryptoTech QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of SmartCryptoTech.
+
+See doc/build-*.txt for instructions on building smartcryptotechd,
+the intended-for-services, no-graphical-interface, reference
+implementation of SmartCryptoTech.

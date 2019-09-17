@@ -5,7 +5,7 @@
 
 ## Links
 [Website](http://smart-crypto-tech.co.uk),
-[Discord](https://discord.gg/AyXyvXd),
+[Discord](https://discord.gg/CEaG3Gk),
 [Twitter](https://twitter.com/SmartCryptoTech),
 [Facebook](https://www.facebook.com/groups/2429636243737273),
 [Explorer](http://104.238.174.44:3001/),

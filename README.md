@@ -3,12 +3,15 @@
 
 
 
-## Links
+### Links
 [Website](http://smart-crypto-tech.co.uk),
+[Explorer](https://blockexplorer.smart-crypto-tech.co.uk),
 [Discord](https://discord.gg/CEaG3Gk),
 [Twitter](https://twitter.com/SmartCryptoTech),
 [Facebook](https://www.facebook.com/groups/2429636243737273),
-[Explorer](http://104.238.174.44:3001/),
+[LinkedIn](https://www.linkedin.com/in/smart-crypto-tech-207700185),
+[Telegram](https://t.me/joinchat/MeSZUhBRNJ0TRsSI11O3Kw),
+[CoinGecko](https://www.coingecko.com/en/coins/smartcryptotech),
 [Paper Wallet](https://twittertipbots.xyz/Paper-Wallets/Coins/index.html?currency=SmartCryptoTech)
 
 

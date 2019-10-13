@@ -5,7 +5,7 @@
 
 ### Official Links
 [➤ Website](http://smart-crypto-tech.co.uk),
-[➤ Explorer](https://blockexplorer.smart-crypto-tech.co.uk),
+[➤ Explorer](https://explorer.smart-crypto-tech.co.uk),
 [➤ Discord](https://discord.gg/CEaG3Gk),
 [➤ Paper Wallet](https://twittertipbots.xyz/Paper-Wallets/Coins/index.html?currency=SmartCryptoTech)
 ### Social Links
@@ -58,7 +58,7 @@ sudo apt-get install libdb5.3++-dev
 ```
 
 
-## How to download on ubuntu 16
+## How to download daemon (Ubuntu 16.04)
 ```
 mkdir smartcryptotech
 cd smartcryptotech

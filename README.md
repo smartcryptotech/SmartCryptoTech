@@ -45,7 +45,7 @@ sudo apt-get install libdb5.3++-dev
 ```
 
 
-## Dependencies (Ubuntu 18.04)
+## Dependencies (Ubuntu 16.04)
 ```
 sudo apt-get install build-essential libtool automake autoconf -qq -y
 sudo apt-get install autotools-dev autoconf pkg-config libssl-dev -qq -y
@@ -55,6 +55,8 @@ sudo apt-get install -y software-properties-common
 sudo apt-get update -qq -y
 sudo apt-get install libminiupnpc-dev -qq -y
 sudo apt-get install libdb5.3++-dev
+```
+
 
 ## How to download on ubuntu 16
 ```
@@ -65,6 +67,8 @@ unzip smartcryptotechd_2.0_ubuntu_16.04.zip
 chmod +x smartcryptotechd
 ./smartcryptotechd -daemon
 ```
+
+
  __**Please note that upon first run you will get a message saying this**__
  ```
 SmartCryptoTech server starting

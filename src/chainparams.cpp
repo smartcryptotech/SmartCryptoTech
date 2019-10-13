@@ -85,8 +85,9 @@ public:
         assert(hashGenesisBlock == uint256("0x000001c6b39009a0ddb3b6526e048cf3225e27ec2a296922f710f634867c846c"));
         assert(genesis.hashMerkleRoot == uint256("0x8dc29328f6fb55d33748a8ccedc29b40b8d9d6012209ffa3540024cdb6001141"));
 
-        vFixedSeeds.clear();
-        vSeeds.clear();
+		vSeeds.push_back(CDNSSeedData("104.238.174.44", "104.238.174.44")); // Vultr cloud node 1
+		vSeeds.push_back(CDNSSeedData("138.68.176.27", "138.68.176.27")); // Vultr cloud node 2
+		vSeeds.push_back(CDNSSeedData("138.68.237.63", "138.68.237.63")); // Vultr cloud node 3
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 64);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 63);

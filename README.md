@@ -37,7 +37,7 @@
 sudo apt-get install build-essential libtool automake autoconf -qq -y
 sudo apt-get install autotools-dev autoconf pkg-config libssl-dev -qq -y
 sudo apt-get install libgmp3-dev libevent-dev bsdmainutils libboost-all-dev -qq -y
-sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
+sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev unzip -y
 sudo apt-get install -y software-properties-common
 sudo apt-get update -qq -y
 sudo apt-get install libminiupnpc-dev -qq -y
@@ -45,19 +45,29 @@ sudo apt-get install libdb5.3++-dev
 ```
 
 
-## How to download on ubuntu
+## Dependencies (Ubuntu 18.04)
+```
+sudo apt-get install build-essential libtool automake autoconf -qq -y
+sudo apt-get install autotools-dev autoconf pkg-config libssl-dev -qq -y
+sudo apt-get install libgmp3-dev libevent-dev bsdmainutils libboost-all-dev -qq -y
+sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev unzip -y
+sudo apt-get install -y software-properties-common
+sudo apt-get update -qq -y
+sudo apt-get install libminiupnpc-dev -qq -y
+sudo apt-get install libdb5.3++-dev
 
+## How to download on ubuntu 16
 ```
 mkdir smartcryptotech
 cd smartcryptotech
-wget https://github.com/smartcryptotech/SmartCryptoTech/blob/master/Wallets/smartcryptotech-daemon-linux.tar.gz
-tar -xzvf smartcryptotech-daemon-linux.tar.gz
+wget https://github.com/smartcryptotech/SmartCryptoTech/releases/download/v2.0/smartcryptotechd_2.0_ubuntu_16.04.zip
+unzip smartcryptotechd_2.0_ubuntu_16.04.zip
 chmod +x smartcryptotechd
 ./smartcryptotechd -daemon
 ```
  __**Please note that upon first run you will get a message saying this**__
- ```cs
- SmartCryptoTech server starting
+ ```
+SmartCryptoTech server starting
 Error: To use the "-daemon" option, you must set a rpcpassword in the configuration file:
 /root/.smartcryptotech/smartcryptotech.conf
 It is recommended you use the following random password:

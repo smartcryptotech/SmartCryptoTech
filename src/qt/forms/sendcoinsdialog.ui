@@ -14,8 +14,17 @@
    <string>Send Coins</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1,0">
+   <property name="leftMargin">
+    <number>3</number>
+   </property>
+   <property name="topMargin">
+    <number>3</number>
+   </property>
+   <property name="rightMargin">
+    <number>3</number>
+   </property>
    <property name="bottomMargin">
-    <number>8</number>
+    <number>3</number>
    </property>
    <item>
     <widget class="QFrame" name="frameCoinControl">
@@ -31,6 +40,12 @@
        <height>16777215</height>
       </size>
      </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border: 1px solid rgb(0, 0, 0); 
+border-radius: 5px;</string>
+     </property>
      <property name="frameShape">
       <enum>QFrame::StyledPanel</enum>
      </property>
@@ -39,7 +54,7 @@
      </property>
      <layout class="QVBoxLayout" name="verticalLayoutCoinControl2">
       <property name="spacing">
-       <number>-1</number>
+       <number>6</number>
       </property>
       <property name="leftMargin">
        <number>0</number>
@@ -104,7 +119,10 @@
           <item>
            <widget class="QPushButton" name="pushButtonCoinControl">
             <property name="styleSheet">
-             <string notr="true"/>
+             <string notr="true">background-color: rgb(48,140,198);
+padding:5px;
+border-radius:0px;
+padding:5px 10px;</string>
             </property>
             <property name="text">
              <string>Inputs...</string>
@@ -173,7 +191,16 @@
            <string notr="true"/>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayoutCoinControl5">
-           <property name="margin">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
             <number>0</number>
            </property>
            <item>
@@ -539,6 +566,11 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:0px;</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -593,12 +625,24 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>830</width>
-        <height>165</height>
+        <width>842</width>
+        <height>159</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
-       <property name="margin">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
         <number>0</number>
        </property>
        <item>

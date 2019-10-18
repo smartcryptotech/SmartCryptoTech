@@ -34,6 +34,11 @@
        <property name="toolTip">
         <string>The label associated with this address book entry</string>
        </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:0px;</string>
+       </property>
       </widget>
      </item>
      <item row="1" column="0">
@@ -50,6 +55,11 @@
       <widget class="QLineEdit" name="addressEdit">
        <property name="toolTip">
         <string>The address associated with this address book entry. This can only be modified for sending addresses.</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:0px;</string>
        </property>
       </widget>
      </item>

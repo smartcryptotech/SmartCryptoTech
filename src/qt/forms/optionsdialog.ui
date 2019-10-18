@@ -19,13 +19,21 @@
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QTabWidget" name="tabWidget">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
      <property name="tabPosition">
       <enum>QTabWidget::North</enum>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>3</number>
      </property>
      <widget class="QWidget" name="tabMain">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+      </property>
       <attribute name="title">
        <string>&amp;Main</string>
       </attribute>
@@ -59,7 +67,12 @@
           </widget>
          </item>
          <item>
-          <widget class="BitcoinAmountField" name="transactionFee"/>
+          <widget class="BitcoinAmountField" name="transactionFee">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+           </property>
+          </widget>
          </item>
          <item>
           <spacer name="horizontalSpacerFee">
@@ -105,7 +118,12 @@
           </widget>
          </item>
          <item>
-          <widget class="BitcoinAmountField" name="reserveBalance"/>
+          <widget class="BitcoinAmountField" name="reserveBalance">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+           </property>
+          </widget>
          </item>
          <item>
           <spacer name="horizontalSpacerReserveBalance">
@@ -126,6 +144,9 @@
         <widget class="QCheckBox" name="bitcoinAtStartup">
          <property name="toolTip">
           <string>Automatically start SmartCryptoTech after logging in to the system.</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>&amp;Start SmartCryptoTech on system login</string>
@@ -198,6 +219,10 @@
            <property name="toolTip">
             <string>IP address of the proxy (e.g. 127.0.0.1)</string>
            </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+           </property>
           </widget>
          </item>
          <item>
@@ -223,6 +248,10 @@
            </property>
            <property name="toolTip">
             <string>Port of the proxy (e.g. 9050)</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
            </property>
           </widget>
          </item>
@@ -321,6 +350,11 @@
            <property name="toolTip">
             <string>The user interface language can be set here. This setting will take effect after restarting SmartCryptoTech.</string>
            </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:0px;</string>
+           </property>
           </widget>
          </item>
         </layout>
@@ -344,6 +378,11 @@
           <widget class="QValueComboBox" name="unit">
            <property name="toolTip">
             <string>Choose the default subdivision unit to show in the interface and when sending coins.</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:0px;</string>
            </property>
           </widget>
          </item>
@@ -463,19 +502,20 @@
  </widget>
  <customwidgets>
   <customwidget>
+   <class>QValidatedLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qvalidatedlineedit.h</header>
+  </customwidget>
+  <customwidget>
    <class>BitcoinAmountField</class>
-   <extends>QSpinBox</extends>
+   <extends>QLineEdit</extends>
    <header>bitcoinamountfield.h</header>
+   <container>1</container>
   </customwidget>
   <customwidget>
    <class>QValueComboBox</class>
    <extends>QComboBox</extends>
    <header>qvaluecombobox.h</header>
-  </customwidget>
-  <customwidget>
-   <class>QValidatedLineEdit</class>
-   <extends>QLineEdit</extends>
-   <header>qvalidatedlineedit.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

@@ -14,10 +14,26 @@
    <string>Transaction details</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>3</number>
+   </property>
+   <property name="topMargin">
+    <number>3</number>
+   </property>
+   <property name="rightMargin">
+    <number>3</number>
+   </property>
+   <property name="bottomMargin">
+    <number>3</number>
+   </property>
    <item>
     <widget class="QTextEdit" name="detailText">
      <property name="toolTip">
       <string>This pane shows a detailed description of the transaction</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid rgb(0, 0, 0); 
+border-radius: 5px;</string>
      </property>
      <property name="readOnly">
       <bool>true</bool>

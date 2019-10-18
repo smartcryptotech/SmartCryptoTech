@@ -14,10 +14,22 @@
    <string>Address Book</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>3</number>
+   </property>
+   <property name="topMargin">
+    <number>3</number>
+   </property>
+   <property name="rightMargin">
+    <number>3</number>
+   </property>
+   <property name="bottomMargin">
+    <number>3</number>
+   </property>
    <item>
     <widget class="QLabel" name="labelExplanation">
      <property name="text">
-      <string>These are your SmartCryptoTech addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</string>
+      <string>These are your SCT addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</string>
      </property>
      <property name="textFormat">
       <enum>Qt::PlainText</enum>
@@ -141,8 +153,6 @@
    </item>
   </layout>
  </widget>
- <resources>
-  <include location="../bitcoin.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

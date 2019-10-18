@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>Coin Control</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(24,24,24);
+color: rgb(255, 255, 255);</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <layout class="QHBoxLayout" name="horizontalLayoutTop" stretch="0,0,0,0">
@@ -347,7 +351,7 @@
         <height>41</height>
        </rect>
       </property>
-      <layout class="QHBoxLayout" name="horizontalLayoutPanel" stretch="0,0,0,0,0">
+      <layout class="QHBoxLayout" name="horizontalLayoutPanel" stretch="0,0,0,0">
        <property name="spacing">
         <number>14</number>
        </property>
@@ -358,6 +362,10 @@
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(48,140,198);
+padding:5px 10px;</string>
          </property>
          <property name="text">
           <string>(un)select all</string>
@@ -414,6 +422,9 @@
     <widget class="CoinControlTreeWidget" name="treeWidget">
      <property name="contextMenuPolicy">
       <enum>Qt::CustomContextMenu</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);</string>
      </property>
      <property name="sortingEnabled">
       <bool>false</bool>
@@ -494,6 +505,9 @@
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(48,140,198);</string>
      </property>
      <property name="orientation">
       <enum>Qt::Horizontal</enum>

@@ -13,6 +13,12 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border: 1px solid rgb(0, 0, 0); 
+border-radius: 5px;</string>
+  </property>
   <property name="frameShape">
    <enum>QFrame::StyledPanel</enum>
   </property>
@@ -50,7 +56,13 @@
     </widget>
    </item>
    <item row="5" column="1">
-    <widget class="BitcoinAmountField" name="payAmount"/>
+    <widget class="BitcoinAmountField" name="payAmount">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:0px;</string>
+     </property>
+    </widget>
    </item>
    <item row="4" column="0">
     <widget class="QLabel" name="label_4">
@@ -74,6 +86,12 @@
       <widget class="QValidatedLineEdit" name="payTo">
        <property name="toolTip">
         <string>The address to send the payment to (e.g. SZFPLNkyK6w3UgpweVapFfCVABHYGKyMvv)</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:0px;
+padding-right:5px;</string>
        </property>
        <property name="maxLength">
         <number>34</number>
@@ -134,6 +152,11 @@
     <widget class="QValidatedLineEdit" name="addAsLabel">
      <property name="toolTip">
       <string>Enter a label for this address to add it to your address book</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:0px;</string>
      </property>
     </widget>
    </item>

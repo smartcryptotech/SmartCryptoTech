@@ -17,12 +17,28 @@
    <bool>true</bool>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>5</number>
+   </property>
+   <property name="topMargin">
+    <number>5</number>
+   </property>
+   <property name="rightMargin">
+    <number>5</number>
+   </property>
+   <property name="bottomMargin">
+    <number>5</number>
+   </property>
    <item>
     <widget class="QTabWidget" name="tabWidget">
      <property name="currentIndex">
       <number>1</number>
      </property>
      <widget class="QWidget" name="tabSignMessage">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+      </property>
       <attribute name="title">
        <string>&amp;Sign Message</string>
       </attribute>
@@ -49,6 +65,11 @@
           <widget class="QValidatedLineEdit" name="addressIn_SM">
            <property name="toolTip">
             <string>The address to sign the message with (e.g. SZFPLNkyK6w3UgpweVapFfCVABHYGKyMvv)</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:0px;</string>
            </property>
            <property name="maxLength">
             <number>34</number>
@@ -102,6 +123,11 @@
          <property name="toolTip">
           <string>Enter the message you want to sign here</string>
          </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:0px;</string>
+         </property>
         </widget>
        </item>
        <item>
@@ -115,6 +141,11 @@
             <font>
              <italic>true</italic>
             </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:0px;</string>
            </property>
            <property name="readOnly">
             <bool>true</bool>
@@ -147,6 +178,10 @@
            <property name="toolTip">
             <string>Sign the message to prove you own this SmartCryptoTech address</string>
            </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(48,140,198);
+color: rgb(255, 255, 255);</string>
+           </property>
            <property name="text">
             <string>&amp;Sign Message</string>
            </property>
@@ -163,6 +198,10 @@
           <widget class="QPushButton" name="clearButton_SM">
            <property name="toolTip">
             <string>Reset all sign message fields</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:rgb(48,140,198);
+color: rgb(255, 255, 255);</string>
            </property>
            <property name="text">
             <string>Clear &amp;All</string>
@@ -223,6 +262,10 @@
       </layout>
      </widget>
      <widget class="QWidget" name="tabVerifyMessage">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+      </property>
       <attribute name="title">
        <string>&amp;Verify Message</string>
       </attribute>
@@ -253,6 +296,11 @@
            <property name="toolTip">
             <string>The address the message was signed with (e.g. SZFPLNkyK6w3UgpweVapFfCVABHYGKyMvv)</string>
            </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:0px;</string>
+           </property>
            <property name="maxLength">
             <number>34</number>
            </property>
@@ -281,10 +329,22 @@
         </layout>
        </item>
        <item>
-        <widget class="QPlainTextEdit" name="messageIn_VM"/>
+        <widget class="QPlainTextEdit" name="messageIn_VM">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:0px;</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <widget class="QValidatedLineEdit" name="signatureIn_VM"/>
+        <widget class="QValidatedLineEdit" name="signatureIn_VM">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:0px;</string>
+         </property>
+        </widget>
        </item>
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_2_VM">
@@ -292,6 +352,10 @@
           <widget class="QPushButton" name="verifyMessageButton_VM">
            <property name="toolTip">
             <string>Verify the message to ensure it was signed with the specified SmartCryptoTech address</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(48,140,198);
+color: rgb(255, 255, 255);</string>
            </property>
            <property name="text">
             <string>&amp;Verify Message</string>
@@ -309,6 +373,10 @@
           <widget class="QPushButton" name="clearButton_VM">
            <property name="toolTip">
             <string>Reset all verify message fields</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(48,140,198);
+color: rgb(255, 255, 255);</string>
            </property>
            <property name="text">
             <string>Clear &amp;All</string>

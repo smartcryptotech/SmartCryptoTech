@@ -23,10 +23,6 @@
 [➤ AltMarkets](https://altmarkets.io/trading/sctbtc),
 [➤ Fiberchange](https://fiberchange.com/market/FBC-SCT),
 [➤ Northern Exchange](https://nortexchange.com/exchange/?market=SCT_BTC)
-### Promo Videos
-[➤ Youtube1](https://www.youtube.com/watch?v=U2yQrCbrAss),
-[➤ Youtube2](https://youtube.com/watch?v=Nzq-1zdKq2U),
-[➤ Youtube3](https://youtube.com/watch?v=ZtbCkikGWHU)
 
 
 
